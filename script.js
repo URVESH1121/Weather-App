@@ -1,4 +1,5 @@
-const apiKey = config.MY_KEY;
+
+const apiKey = config.MY_API_TOKEN;
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&units=metric&q=`;
 
 //1st way
