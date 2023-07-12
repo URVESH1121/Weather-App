@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="icons/weather-app.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="first">
+        <input type="text" placeholder="Enter the city name" />
+        <div class="button-box">
+          <button class="twenty-one"><span>Search</span></button>
+        </div>
+      </div>
+      <div class="second">
+        <div class="city">
+          <h2 id="city">City Name</h2>
+          <img id="image" />
+          <div class="condition" id="desc">Condition</div>
+        </div>
+        <div class="temp">
+          <h1 id="temp">- °C</h1>
+        </div>
+      </div>
+      <div class="third">
+        <div class="upper">
+          <div class="min">
+            <h3>Min</h3>
+            <h2 id="min">-- °C</h2>
+          </div>
+          <div class="max">
+            <h3>Max</h3>
+            <h2 id="max">-- °C</h2>
+          </div>
+          <div class="feel">
+            <h3>Feels Like</h3>
+            <h2 id="feel">-- °C</h2>
+          </div>
+        </div>
+        <div class="lower">
+          <div class="pressure">
+            <h3>Pressure</h3>
+            <h2 id="pressure">-- hPa</h2>
+          </div>
+          <div class="humidity">
+            <h3>Humidity</h3>
+            <h2 id="humidity">-- %</h2>
+          </div>
+          <div class="wind">
+            <h3>Wind Speed</h3>
+            <h2 id="wind">-- m/s</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
